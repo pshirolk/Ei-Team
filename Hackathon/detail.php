@@ -7,7 +7,6 @@ include 'top.php';
     <section>
         <h3>Most Scenic Ski Resorts!</h3>
     
-    <section>
         <h3>Links</h3>
         <p>
             <a href="//www.stowe.com/">Stowe</a>
