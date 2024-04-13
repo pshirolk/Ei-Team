@@ -71,24 +71,6 @@ include 'top.php';
         For updates, follow us on Instagram <a href="https://www.instagram.com/catsoutuvm/"><?php echo "@catsoutuvm"; ?></a> and connect with fellow
         outdoor enthusiasts. Don't forget to tag us in your posts!
         <p>
-
-<?php
-$sql = 'SELECT fldName, fldLocation, fldRating FROM tblFunSpots';
-$statement = $pdo->prepare($sql);
-$statement->execute();
-
-$records = $statement->fetchAll();
-
-foreach($records as $record) {
-    print '<tr>';
-    print '<td>' . $record['fldName'] . '</td>';
-    print '<td>' . $record['fldLocation'] . '</td>';
-    print '<td>' . $record['fldRating'] . '</td>';
-    print '</tr>' . PHP_EOL;
-}
-
-?>
-        </table>
     </section>
 </main>
 <?php
