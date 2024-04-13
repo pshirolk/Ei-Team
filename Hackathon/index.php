@@ -3,15 +3,16 @@ include 'top.php';
 ?>
 <main>
     
-    <h1>Welcome!!!!</h1>
+    <h1>Embark on Your Next Adventure</h1>
 
     <section>
-        <h2>Embark on Your Next Adventure</h2>
-        <p> Welcome to our gateway to thrilling outdoor escapades!
-        Here, you'll discover a treasure trove of upcoming trips tailored for outdoor enthusiasts like you.
-        Whether you're drawn to the serene trails of a forest hike, the adrenaline rush of skiing down powdery slopes,
-        or the invigorating challenge of biking through rugged terrain, we have something for everyone.
-        Scroll down to explore our upcoming adventures for the month and embark on unforgettable journeys into nature's embrace.
+        <p>
+        Welcome to our gateway to thrilling outdoor escapades and enriching storytelling! Here, you'll discover a treasure trove of
+        upcoming trips tailored for outdoor enthusiasts like you. Whether you're drawn to the serene trails of a forest hike,
+        the adrenaline rush of skiing down powdery slopes, or the invigorating challenge of biking through rugged terrain,
+        we have something for everyone. And for those eager to share their experiences, our platform welcomes adventurers to
+        contribute to our exciting forums, where your tales can inspire and captivate fellow nature lovers. Scroll down to explore
+        our upcoming trips.
         </p>
     </section>
 

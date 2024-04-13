@@ -205,11 +205,6 @@ print '</pre>';
                     <label class="radio-field" for="radRockClimbing">Rock Climbing</label>
                 </p>
             </fieldset>
-
-
-
-
-
             
             <fieldset class="radio">
                 <legend>Did you enjoy our website?</legend>
@@ -252,7 +247,7 @@ print '</pre>';
 
             <fieldset class="listbox">
                 <p>
-                    <input type="submit">
+                    <input type="Submit">
                 </p>
             </fieldset>
 
