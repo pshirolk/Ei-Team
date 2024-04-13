@@ -8,7 +8,6 @@ $email = '';
 $name = '';
 $terms = 0;
 $trip = 0;
-$topic = 0;
 
 function verifyAlphaNum($testString) {
     // Check for letters, numbers and dash, period, space and single quote only.
@@ -50,8 +49,8 @@ if($name == '') {
     $dataIsGood = false;
 }
 
-if($terms == '') {
-    $errorMessage .= '<p class="mistake">Please type a terms.</p>';
+if($terms == 0) {
+    $errorMessage .= '<p class="mistake">Please accept our terms.</p>';
     $dataIsGood = false;
 }
 
@@ -59,10 +58,7 @@ if($trip != "Definitely Trip" AND $trip != "Trip" AND $trip != "Unsure" AND $tri
     $errorMessage .= '<p class="mistake">Please tell us what you think of our website.</p>';
     $dataIsGood = false;
 }
-if($topic != "Skiing" AND $topic != "Mountain Biking" AND $topic != "Hiking" AND $topic != "Rock Climbing") {
-    $errorMessage .= '<p class="mistake">Please select a topic.</p>';
-    $dataIsGood = false;
-}
+
 
 
 print PHP_EOL . '<!--Starting Saving -->' . PHP_EOL;
@@ -141,7 +137,7 @@ print '</pre>';
             </fieldset>
 
             <fieldset class="contact">
-                <legend>Please enter your terms</legend>
+                <legend>Please verify you accept the terms and conditions of the trip</legend>
                 <p>
                     <label class="required" for="txtTerms">Terms</label>
                     <label for="txtTerms">Terms here</label>
@@ -155,39 +151,25 @@ print '</pre>';
             <fieldset class="radio">
                 <legend>Did you enjoy our website?</legend>
                 <p>
-                    <input type="radio" id="radDefinitelyTrip" name="radTrip" 
-                    value="Definitely Trip" tabIndex="430" 
-                    <?php if($trip == "Definitely Trip") print 'checked'; ?> 
+                    <input type="radio" id="radSugarbushTrip" name="radTrip" 
+                    value="Sugarbush Trip" tabIndex="430" 
+                    <?php if($trip == "Sugarbush Trip") print 'checked'; ?> 
                     required>
-                    <label class="radio-field" for="radDefinitelyTrip">Definitely Trip</label>
+                    <label class="radio-field" for="radSugarbushTrip">Sugarbush Ski Trip</label>
                 </p>
                 <p>
-                    <input type="radio" id="radTrip" name="radTrip" 
-                    value="Trip" tabIndex="430" 
+                    <input type="radio" id="radMtMasfieldTrip" name="radTrip" 
+                    value="Mt.Mansfiled Trip" tabIndex="430" 
                     <?php if($trip == "Trip") print 'checked'; ?> 
                     required>
-                    <label class="radio-field" for="radTrip">Trip</label>
+                    <label class="radio-field" for="radMtMasfieldTrip">Mt. Mansfield Day Hike</label>
                 </p>
                 <p>
-                    <input type="radio" id="radUnsure" name="radTrip" 
-                    value="Unsure" tabIndex="430" 
-                    <?php if($trip == "Unsure") print 'checked'; ?> 
+                    <input type="radio" id="radBoltonValleyTrip" name="radTrip" 
+                    value="Bolton Valley Trip" tabIndex="430" 
+                    <?php if($trip == "Bolton Valley Trip") print 'checked'; ?> 
                     required>
-                    <label class="radio-field" for="radUnsure">Unsure</label>
-                </p>
-                <p>
-                    <input type="radio" id="radNotTrip" name="radTrip" 
-                    value="Not Trip" tabIndex="430" 
-                    <?php if($trip == "Not Trip") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radNotTrip">Not Trip</label>
-                </p>
-                <p>
-                    <input type="radio" id="radDefinitelyNotTrip" name="radTrip" 
-                    value="Definitely Not Trip" tabIndex="430" 
-                    <?php if($trip == "Definitely Not Trip") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radDefinitelyNotTrip">Definitely Not Trip</label>
+                    <label class="radio-field" for="radBoltonValleyTrip">Bolton Valley Bike Park</label>
                 </p>
             </fieldset>
 
