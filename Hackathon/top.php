@@ -16,6 +16,10 @@ $pathParts = pathinfo($phpSelf);
 
         <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
 
+        <link rel="stylesheet" 
+            href="css/layout-desktop.css?version=<?php print time(); ?>" 
+            type="text/css">
+
         <link rel="stylesheet" media="(max-width: 800px)" href="css/custom-tablet.css?version=<?php print time(); ?>" type="text/css">
 
         <link rel="stylesheet" media="(max-width: 600px)" href="css/custom-phone.css?version=<?php print time(); ?>" type="text/css">
