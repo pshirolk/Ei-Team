@@ -101,7 +101,7 @@ if($dataIsGood) {
 }
 ?>
 <main>
-    <h2>Add to a thread.</h2>
+    <h2>Add to a thread !</h2>
 
     
 
@@ -118,7 +118,6 @@ print '</pre>';
                 <legend>Please enter your email</legend>
                 <p>
                     <label class="required" for="txtEmail">Email</label>
-                    <label for="txtEmail">Email here</label>
                     <input id="txtEmail" maxlength="30" name="txtEmail"
                     onfocus="this.select()" tabindex="305" type="text" value="<?php print $email; ?>" 
                     required>
@@ -129,7 +128,6 @@ print '</pre>';
                 <legend>Please enter your name</legend>
                 <p>
                     <label class="required" for="txtEmail">Name</label>
-                    <label for="txtName">Name here</label>
                     <input id="txtName" maxlength="30" name="txtName"
                     onfocus="this.select()" tabindex="305" type="text" value="<?php print $name; ?>" 
                     required>
@@ -148,7 +146,7 @@ print '</pre>';
 
             
             <fieldset class="radio">
-                <legend>Did you enjoy our website?</legend>
+                <legend>Select a trip</legend>
                 <p>
                     <input type="radio" id="radSugarbushTrip" name="radTrip" 
                     value="Sugarbush Trip" tabIndex="430" 
