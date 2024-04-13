@@ -29,7 +29,7 @@ include 'top.php';
         </figure> -->
     </section>
 
-       <section class = "weather">
+           <section class = "weather">
         <h2>MOUNT MANSFIELD</h2>
         <a class="weatherwidget-io" href="https://forecast7.com/en/44d53n72d95/underhill/?unit=us" data-label_1="MOUNT MANSFIELD" data-label_2="50 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#0f4416" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >MOUNT MANSFIELD 50 min from you</a>
         <script>
@@ -43,6 +43,10 @@ include 'top.php';
         <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
         </script>
+        <figure>
+                <img alt = "(Image is currently unavailable) Sugarbush" 
+                    src = "images/sugarbush.jpg">
+        </figure>
     </section>
 
     <section class = "weather">
@@ -51,6 +55,10 @@ include 'top.php';
         <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
         </script>
+        <figure>
+                <img alt = "(Image is currently unavailable) Stowe" 
+                    src = "images/stowe.jpg">
+        </figure>
      </section>
 
      <section class = "weather">
@@ -59,6 +67,10 @@ include 'top.php';
         <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
         </script>
+        <figure>
+                <img alt = "(Image is currently unavailable) Bolton" 
+                    src = "images/bolton.jpg">
+        </figure>
     </section>
 
     <section class = "weather">
@@ -67,6 +79,10 @@ include 'top.php';
         <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
         </script>
+        <figure>
+                <img alt = "(Image is currently unavailable) Jay Peak" 
+                    src = "images/jay.jpg">
+        </figure>
     </section>
 
     <section>
