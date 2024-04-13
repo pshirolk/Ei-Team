@@ -91,6 +91,11 @@ nav nav a:link {
     text-decoration: none;
 }
 
+nav a:link {
+    color: rgb(220, 170, 15);
+    text-decoration: none;
+}
+
 nav a:visited {
     text-decoration: none;
     color: rgb(245, 200, 12);
