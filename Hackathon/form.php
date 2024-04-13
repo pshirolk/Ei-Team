@@ -62,7 +62,7 @@ if($topic != "Skiing" AND $topic != "Mountain Biking" AND $topic != "Hiking" AND
 
 print PHP_EOL . '<!--Starting Saving -->' . PHP_EOL;
 if($dataIsGood) {
-    $sql = 'INSERT INTO tblForumPost(fldEmail, fldTitle, fldBody, fldTopic) VALUES (?, ?, ?, ?, ?)';
+    $sql = 'INSERT INTO tblForumPost(fldEmail, fldTitle, fldBody, fldTopic) VALUES (?, ?, ?, ?)';
     $data = array($email, $title, $body, $topic);
 
     try{
