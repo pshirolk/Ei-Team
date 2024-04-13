@@ -32,7 +32,6 @@ $email = getData('txtEmail');
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 $title = getData('txtTitle');
 $body = getData('txtBody');
-$satisfied = getData('radSatisfied');
 $topic = getData('radTopic');
 
 
@@ -63,9 +62,10 @@ if($topic != "Skiing" AND $topic != "Mountain Biking" AND $topic != "Hiking" AND
 
 
 print PHP_EOL . '<!--Starting Saving -->' . PHP_EOL;
+echo($dataIsGood)
 if($dataIsGood) {
-    $sql = 'INSERT INTO tblForumPost(fldEmail, fldTitle, fldBody, fldTopic, fldRating) VALUES (?, ?, ?, ?, ?)';
-    $data = array($email, $title, $body, $topic, $satisfied);
+    $sql = 'INSERT INTO tblForumPost(fldEmail, fldTitle, fldBody, fldTopic) VALUES (?, ?, ?, ?, ?)';
+    $data = array($email, $title, $body, $topic);
 
     try{
         $statement = $pdo->prepare($sql);
