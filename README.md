@@ -1,12 +1,8 @@
-# Ei-Team
+d# Ei-Team
 # Team 18 UVM Hackathon 2024
 
-## Project Guidelines
-This is a collaboration with UVM MOVE.
+## Outdoors App Project Guidelines
 
-- Produce a web app displayed on TVs around campus that shows a live city bus
-  schedule for stops closest to where the tv is located (i.e. Davis Center). This should
-  work on a 1920x1080 display
-- Shows when the next Green Mountain Transit bus is coming
-  - Bonus to add support for the UVM CatBus
-  - Bonus to add support for multiple locations like Innovation or L/L
+ Develop an app (mobile or web) to solve an issue involving the outdoors that affects
+UVM students the most
+  - Examples include: determining if it will be a good ski weekend, find a group to do an activity together, multi route hiking activity planner, hikes in your radius based on location ranked
