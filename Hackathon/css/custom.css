@@ -82,7 +82,6 @@ aside,
 h2,
 h3,
 h4,
-h5,
 h6,
 nav nav a:link {
     background-color: rgb(0, 100, 70);
@@ -177,6 +176,12 @@ h1 {
     text-decoration: bold;
     text-align: center;
 }
+h5 {
+    font-style: bold;
+    color: rgb(255, 255, 225);
+    text-decoration: none;
+}
+
 
 p {
     /*text-indent: 3em;*/
