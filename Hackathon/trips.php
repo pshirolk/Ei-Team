@@ -101,7 +101,7 @@ if($dataIsGood) {
 }
 ?>
 <main>
-    
+    <section>
 <?php
 print '<p>Post Array:</p><pre>';
 print_r($_POST);
