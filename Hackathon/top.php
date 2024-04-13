@@ -13,6 +13,7 @@ $pathParts = pathinfo($phpSelf);
         <meta name="description" content="This is a forum for people who love skiing and biking in Vermont.  We encourage users to post about their recent outdoor adventures in the Green Mountain State.">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.png">
 
         <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
 
