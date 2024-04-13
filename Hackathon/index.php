@@ -49,7 +49,7 @@ include 'top.php';
     <section>
         <h2>Featured Trips</h2>
         <p>
-        <p>Hurry up! Spots are filling out fast!</p>
+        <p>Hurry up! Spots are filling up fast!</p>
         $trips = array(
             "Sugar Bush Ski Trip, April 14",
             "Mt. Mansfield Day Hike, April 27",
