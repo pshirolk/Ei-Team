@@ -12,7 +12,7 @@
 
 
 main {
-    background-color: rgba(237, 239, 201, 0.591);
+    background-color: rgba(0, 105, 80, 0.591);
     display: block;
     grid-template-areas: "box1 box1" "box2 box 3" "box3 box4";
     grid-template-columns: auto;
@@ -41,11 +41,11 @@ main section:nth-child(4) {
 
 :root {
 
-    --main-bg-color: #e0e0dd;
+    --main-bg-color: #007155;
     --nav-bg-color-rgba: rgba(253, 191, 97, .8);
-    --main-text-color: #000000;
-    --background-even: rgba(253, 253, 233, .8);
-    --background-odd: rgba(233, 233, 233, 0.591);
+    --main-text-color: #FFD416;
+    --background-even: rgba(0, 120, 100, .8);
+    --background-odd: rgba(0, 100, 80, .8);
 
 }
 
@@ -87,13 +87,13 @@ h5,
 h6,
 nav nav a:link {
     background-color: #eeeee4;
-
+    color: rgb(255, 212, 22);
     text-decoration: none;
 }
 
 nav a:visited {
     text-decoration: none;
-    color: rgb(46, 45, 83);
+    color: rgb(245, 200, 12);
 }
 
 nav a:hover {
@@ -107,10 +107,10 @@ nav a {
 
 nav {
     padding: 1%;
-    border-bottom: thick solid rgb(0, 0, 0);
-    border-left: thick solid rgb(0, 0, 0);
-    border-right: thick solid rgb(0, 0, 0);
-    border-top: thick solid rgb(0, 0, 0);
+    border-bottom: thick solid rgb(0, 100, 80);
+    border-left: thick solid rgb(0, 100, 80);
+    border-right: thick solid rgb(0, 100, 80);
+    border-top: thick solid rgb(0, 100, 80);
     display: flex;
     background-color: var(--main-bg-color);
     text-align: center;
