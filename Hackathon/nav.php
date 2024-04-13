@@ -22,4 +22,16 @@
         print 'activePage';
     }
     ?>" href="detail2.php">Biking Forum</a>
+
+    <a class="<?php
+    if ($pathParts['filename'] == 'rockClimbing') {
+        print 'activePage';
+    }
+    ?>" href="detail2.php">Rock Climbing Forum</a>
+
+    <a class="<?php
+    if ($pathParts['filename'] == 'hiking') {
+        print 'activePage';
+    }
+    ?>" href="detail2.php">Hiking Forum</a>
 </nav>
