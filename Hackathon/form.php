@@ -57,12 +57,13 @@ if($body == '') {
 
 if($topic != "Skiing" AND $topic != "Mountain Biking" AND $topic != "Hiking" AND $topic != "Rock Climbing") {
     $errorMessage .= '<p class="mistake">Please select a topic.</p>';
+    $dataIsGood = false;
 }
 
 
 print PHP_EOL . '<!--Starting Saving -->' . PHP_EOL;
 if($dataIsGood) {
-    $sql = 'INSERT INTO tblForumPost(fldEmail, fldTitle, fldBody, fldTopic) VALUES (?, ?, ?, ?, ?)';
+    $sql = 'INSERT INTO tblForumPost(fldEmail, fldTitle, fldBody, fldTopic) VALUES (?, ?, ?, ?)';
     $data = array($email, $title, $body, $topic);
 
     try{
