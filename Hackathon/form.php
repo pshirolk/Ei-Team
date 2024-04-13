@@ -39,6 +39,7 @@ $satisfied = getData('radSatisfied');
 $mountainBiking = (int) getData('chkMountainBiking');
 $skiing = (int) getData('chkSkiing');
 $rockClimbing = (int) getData('chkrockClimbing');
+$hiking = (int) getData('chkHiking');
 
 print PHP_EOL . '<!--Starting Validation -->' . PHP_EOL;
 
