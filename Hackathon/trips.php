@@ -30,7 +30,7 @@ print PHP_EOL . '<!--Starting Sanitization -->' . PHP_EOL;
 $email = getData('txtEmail');
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 $name = getData('txtName');
-$terms = getData('txtTerms');
+$terms = getData('chkTerms');
 $trip = getData('radTrip');
 
 
