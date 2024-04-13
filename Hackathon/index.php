@@ -7,7 +7,6 @@ include 'top.php';
 
 <section class = "small-images">
         <div>
-            <h2>Embark on Your Next Adventure</h2>
             <p> Welcome to our gateway to thrilling outdoor escapades!
             Here, you'll discover a treasure trove of upcoming trips tailored for outdoor enthusiasts like you.
             Whether you're drawn to the serene trails of a forest hike, the adrenaline rush of skiing down powdery slopes,
