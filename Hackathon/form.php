@@ -8,10 +8,7 @@ $email = '';
 $title = '';
 $body = 0;
 $satisfied = 0;
-$mountainBiking = 0;
-$skiing = 0;
-$rockClimbing = 0;
-$hiking = 0;
+$topic = 0;
 
 function verifyAlphaNum($testString) {
     // Check for letters, numbers and dash, period, space and single quote only.
@@ -36,10 +33,8 @@ $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 $title = getData('txtTitle');
 $body = getData('txtBody');
 $satisfied = getData('radSatisfied');
-$mountainBiking = (int) getData('chkMountainBiking');
-$skiing = (int) getData('chkSkiing');
-$rockClimbing = (int) getData('chkrockClimbing');
-$hiking = (int) getData('chkHiking');
+$topic = getData('radTopic');
+
 
 print PHP_EOL . '<!--Starting Validation -->' . PHP_EOL;
 
@@ -178,34 +173,44 @@ print '</pre>';
                 </p>
             </fieldset>
 
-            <fieldset class="checkbox">
-                <legend>Topic</legend>
+            
+            <fieldset class="radio">
+                <legend>Please choose a Topic</legend>
                 <p>
-                    <input id="chkMountainBiking" name="chkMountainBiking" 
-                    <?php if($mountainBiking) print 'checked'; ?>
-                    type="checkbox" value="1">
-                    <label for="chkMountainBiking">Mountain Biking</label>
+                    <input type="radio" id="radMountainBiking" name="radTopic" 
+                    value="Mountain Biking" tabIndex="430" 
+                    <?php if($topic == "Mountain Biking") print 'checked'; ?> 
+                    required>
+                    <label class="radio-field" for="radMountainBiking">Mountain Biking</label>
                 </p>
                 <p>
-                    <input id="chkSkiing" name="chkSkiing" 
-                    <?php if($skiing) print 'checked'; ?>
-                    type="checkbox" value="2">
-                    <label for="chkSkiing">Skiing</label>
+                    <input type="radio" id="radSkiing" name="radTopic" 
+                    value="Skiing" tabIndex="430" 
+                    <?php if($topic == "Skiing") print 'checked'; ?> 
+                    required>
+                    <label class="radio-field" for="radSkiing">Skiing</label>
                 </p>
                 <p>
-                    <input id="chkrockClimbing" name="chkrockClimbing" 
-                    <?php if($rockClimbing) print 'checked'; ?>
-                    type="checkbox" value="3">
-                    <label for="chkrockClimbing">Rock Climbing</label>
+                    <input type="radio" id="radHiking" name="radTopic" 
+                    value="Hiking" tabIndex="430" 
+                    <?php if($topic == "Hiking") print 'checked'; ?> 
+                    required>
+                    <label class="radio-field" for="radHiking">Hiking</label>
                 </p>
                 <p>
-                    <input id="chkHiking" name="chkHiking" 
-                    <?php if($hiking) print 'checked'; ?>
-                    type="checkbox" value="4">
-                    <label for="chkHiking">Hiking</label>
+                    <input type="radio" id="radRockClimbing" name="radTopic" 
+                    value="Rock Climbing" tabIndex="430" 
+                    <?php if($topic == "Rock Climbing") print 'checked'; ?> 
+                    required>
+                    <label class="radio-field" for="radRockClimbing">Rock Climbing</label>
                 </p>
             </fieldset>
 
+
+
+
+
+            
             <fieldset class="radio">
                 <legend>Did you enjoy our website?</legend>
                 <p>
