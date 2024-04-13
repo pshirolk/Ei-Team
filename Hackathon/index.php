@@ -23,10 +23,10 @@ include 'top.php';
         Don't miss out on the opportunity to create unforgettable memories and connect with new people.
         Sign up NOW!! Do it! Do it right now! We know you want to!
         </p>
-        <figure>
-                <img alt = "(Image is currently unavailable) Beautiful trees!" 
-                    src = "images/trees.jpg">
-            </figure>
+        <!-- <figure>
+            <img alt = "(Image is currently unavailable) Beautiful trees!" 
+                src = "images/trees.jpg">
+        </figure> -->
     </section>
 
     <section class = "weather">
