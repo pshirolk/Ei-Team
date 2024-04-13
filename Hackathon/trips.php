@@ -5,9 +5,9 @@ $dataIsGood = true;
 $errorMessage = '';
 $message = '';
 $email = '';
-$title = '';
-$body = 0;
-$satisfied = 0;
+$name = '';
+$terms = 0;
+$trip = 0;
 $topic = 0;
 
 function verifyAlphaNum($testString) {
@@ -30,10 +30,9 @@ function getData($field) {
 print PHP_EOL . '<!--Starting Sanitization -->' . PHP_EOL;
 $email = getData('txtEmail');
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
-$title = getData('txtTitle');
-$body = getData('txtBody');
-$satisfied = getData('radSatisfied');
-$topic = getData('radTopic');
+$name = getData('txtName');
+$terms = getData('txtTerms');
+$trip = getData('radTrip');
 
 
 print PHP_EOL . '<!--Starting Validation -->' . PHP_EOL;
@@ -46,17 +45,17 @@ if($email == '') {
     $dataIsGood = false;
 }
 
-if($title == '') {
-    $errorMessage .= '<p class="mistake">Please type a title.</p>';
+if($name == '') {
+    $errorMessage .= '<p class="mistake">Please type a name.</p>';
     $dataIsGood = false;
 }
 
-if($body == '') {
-    $errorMessage .= '<p class="mistake">Please type a body.</p>';
+if($terms == '') {
+    $errorMessage .= '<p class="mistake">Please type a terms.</p>';
     $dataIsGood = false;
 }
 
-if($satisfied != "Definitely Satisfied" AND $satisfied != "Satisfied" AND $satisfied != "Unsure" AND $satisfied != "Not Satisfied" AND $satisfied != "Definitely Not Satisfied") {
+if($trip != "Definitely Trip" AND $trip != "Trip" AND $trip != "Unsure" AND $trip != "Not Trip" AND $trip != "Definitely Not Trip") {
     $errorMessage .= '<p class="mistake">Please tell us what you think of our website.</p>';
     $dataIsGood = false;
 }
@@ -68,8 +67,8 @@ if($topic != "Skiing" AND $topic != "Mountain Biking" AND $topic != "Hiking" AND
 
 print PHP_EOL . '<!--Starting Saving -->' . PHP_EOL;
 if($dataIsGood) {
-    $sql = 'INSERT INTO tblForumPost(fldEmail, fldTitle, fldBody, fldTopic, fldRating) VALUES (?, ?, ?, ?, ?)';
-    $data = array($email, $title, $body, $topic, $satisfied);
+    $sql = 'INSERT INTO tblForumPost(fldEmail, fldName, fldTerms, fldTopic, fldRating) VALUES (?, ?, ?, ?, ?)';
+    $data = array($email, $name, $terms, $topic, $trip);
 
     try{
         $statement = $pdo->prepare($sql);
@@ -131,96 +130,64 @@ print '</pre>';
             </fieldset>
 
             <fieldset class="contact">
-                <legend>Please enter your title</legend>
+                <legend>Please enter your name</legend>
                 <p>
-                    <label class="required" for="txtEmail">Title</label>
-                    <label for="txtTitle">Title here</label>
-                    <input id="txtTitle" maxlength="30" name="txtTitle"
-                    onfocus="this.select()" tabindex="305" type="text" value="<?php print $title; ?>" 
+                    <label class="required" for="txtEmail">Name</label>
+                    <label for="txtName">Name here</label>
+                    <input id="txtName" maxlength="30" name="txtName"
+                    onfocus="this.select()" tabindex="305" type="text" value="<?php print $name; ?>" 
                     required>
                 </p>
             </fieldset>
 
             <fieldset class="contact">
-                <legend>Please enter your body</legend>
+                <legend>Please enter your terms</legend>
                 <p>
-                    <label class="required" for="txtBody">Body</label>
-                    <label for="txtBody">Body here</label>
-                    <input id="txtBody" maxlength="200" name="txtBody"
-                    onfocus="this.select()" tabindex="305" type="text" value="<?php print $body; ?>" 
+                    <label class="required" for="txtTerms">Terms</label>
+                    <label for="txtTerms">Terms here</label>
+                    <input id="txtTerms" maxlength="200" name="txtTerms"
+                    onfocus="this.select()" tabindex="305" type="text" value="<?php print $terms; ?>" 
                     required>
                 </p>
             </fieldset>
 
             
             <fieldset class="radio">
-                <legend>Please choose a Topic</legend>
-                <p>
-                    <input type="radio" id="radMountainBiking" name="radTopic" 
-                    value="Mountain Biking" tabIndex="430" 
-                    <?php if($topic == "Mountain Biking") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radMountainBiking">Mountain Biking</label>
-                </p>
-                <p>
-                    <input type="radio" id="radSkiing" name="radTopic" 
-                    value="Skiing" tabIndex="430" 
-                    <?php if($topic == "Skiing") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radSkiing">Skiing</label>
-                </p>
-                <p>
-                    <input type="radio" id="radHiking" name="radTopic" 
-                    value="Hiking" tabIndex="430" 
-                    <?php if($topic == "Hiking") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radHiking">Hiking</label>
-                </p>
-                <p>
-                    <input type="radio" id="radRockClimbing" name="radTopic" 
-                    value="Rock Climbing" tabIndex="430" 
-                    <?php if($topic == "Rock Climbing") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radRockClimbing">Rock Climbing</label>
-                </p>
-            </fieldset>
-            
-            <fieldset class="radio">
                 <legend>Did you enjoy our website?</legend>
                 <p>
-                    <input type="radio" id="radDefinitelySatisfied" name="radSatisfied" 
-                    value="Definitely Satisfied" tabIndex="430" 
-                    <?php if($satisfied == "Definitely Satisfied") print 'checked'; ?> 
+                    <input type="radio" id="radDefinitelyTrip" name="radTrip" 
+                    value="Definitely Trip" tabIndex="430" 
+                    <?php if($trip == "Definitely Trip") print 'checked'; ?> 
                     required>
-                    <label class="radio-field" for="radDefinitelySatisfied">Definitely Satisfied</label>
+                    <label class="radio-field" for="radDefinitelyTrip">Definitely Trip</label>
                 </p>
                 <p>
-                    <input type="radio" id="radSatisfied" name="radSatisfied" 
-                    value="Satisfied" tabIndex="430" 
-                    <?php if($satisfied == "Satisfied") print 'checked'; ?> 
+                    <input type="radio" id="radTrip" name="radTrip" 
+                    value="Trip" tabIndex="430" 
+                    <?php if($trip == "Trip") print 'checked'; ?> 
                     required>
-                    <label class="radio-field" for="radSatisfied">Satisfied</label>
+                    <label class="radio-field" for="radTrip">Trip</label>
                 </p>
                 <p>
-                    <input type="radio" id="radUnsure" name="radSatisfied" 
+                    <input type="radio" id="radUnsure" name="radTrip" 
                     value="Unsure" tabIndex="430" 
-                    <?php if($satisfied == "Unsure") print 'checked'; ?> 
+                    <?php if($trip == "Unsure") print 'checked'; ?> 
                     required>
                     <label class="radio-field" for="radUnsure">Unsure</label>
                 </p>
                 <p>
-                    <input type="radio" id="radNotSatisfied" name="radSatisfied" 
-                    value="Not Satisfied" tabIndex="430" 
-                    <?php if($satisfied == "Not Satisfied") print 'checked'; ?> 
+                    <input type="radio" id="radNotTrip" name="radTrip" 
+                    value="Not Trip" tabIndex="430" 
+                    <?php if($trip == "Not Trip") print 'checked'; ?> 
                     required>
-                    <label class="radio-field" for="radNotSatisfied">Not Satisfied</label>
+                    <label class="radio-field" for="radNotTrip">Not Trip</label>
                 </p>
                 <p>
-                    <input type="radio" id="radDefinitelyNotSatisfied" name="radSatisfied" 
-                    value="Definitely Not Satisfied" tabIndex="430" 
-                    <?php if($satisfied == "Definitely Not Satisfied") print 'checked'; ?> 
+                    <input type="radio" id="radDefinitelyNotTrip" name="radTrip" 
+                    value="Definitely Not Trip" tabIndex="430" 
+                    <?php if($trip == "Definitely Not Trip") print 'checked'; ?> 
                     required>
-                    <label class="radio-field" for="radDefinitelyNotSatisfied">Definitely Not Satisfied</label>
+                    <label class="radio-field" for="radDefinitelyNotTrip">Definitely Not Trip</label>
                 </p>
             </fieldset>
 
