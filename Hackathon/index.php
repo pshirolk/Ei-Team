@@ -10,16 +10,14 @@ include 'top.php';
         <p>Below is a list of active groups you can join.</p>
         /* list of groups here as different boxes */
         <figure>
-            <img alt = "(Image is currently unavailable) The interior of our location." 
-                    src = "images/interior.png">
-                <figcaption>Our espresso stations. <cite>(Courtesy of: <a href = "">
-                        Pinterest</a>)</cite>.</figcaption>
+            <img alt = "" 
+                    src = "">
+                <figcaption></figcaption>
         </figure>
     </section>
 
     <section>
         <h2>HOTSPOTS</h2>
-        <h3>My Google Maps Demo</h3>
     <!--The div element for the map -->
     <div id="map"></div>
 
