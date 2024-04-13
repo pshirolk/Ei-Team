@@ -69,7 +69,7 @@ html {
 }
 
 input[type=submit] {
-    background: darkgreen;
+    background: rgb(0,100,70);
     color: whitesmoke;
     font-size: x-large;
     padding: 3%;
@@ -255,10 +255,12 @@ form {
 }
 
 fieldset{
+    /*
     background-color: black;
     border-radius: 15px;
     border: 3px solid silver;
     margin-bottom: 2em;
+    */
     padding: 1%;
 }
 .data {
