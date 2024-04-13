@@ -43,7 +43,7 @@ main section:nth-child(4) {
 
     --main-bg-color: #007155;
     --nav-bg-color-rgba: rgba(253, 191, 97, .8);
-    --main-text-color: #FFD416;
+    --main-text-color: rgb(255,255,255);
     --background-even: rgba(0, 120, 100, .8);
     --background-odd: rgba(0, 100, 80, .8);
 
@@ -86,7 +86,7 @@ h5,
 h6,
 nav nav a:link {
     background-color: rgb(0, 100, 70);
-    color: rgb(255, 212, 22);
+    color: rgb(255, 255, 225);
     text-decoration: none;
 }
 
@@ -163,7 +163,7 @@ input {
 }
 
 h1 {
-    font-family: Georgia;
+    font-family: Helvetica;
     font-style: bold;
     font-size: 70px;
     color: rgb(170, 94, 57);
