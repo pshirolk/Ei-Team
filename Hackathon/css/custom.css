@@ -267,5 +267,5 @@ legend {
 
 .activePage {
 
-    background-color: gray;
+    background-color: rgba(0, 100, 80, .8);
 }
