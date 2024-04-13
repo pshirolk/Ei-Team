@@ -2,9 +2,9 @@
 include 'top.php';
 ?>
 <main>
-    <section>
     <h2>Rock Climbing Forum</h2>
-    
+
+      <section>
         <h3>Rock Climbing in the Area </h3>
     
         <h3>Links</h3>
