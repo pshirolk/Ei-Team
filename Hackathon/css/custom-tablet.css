@@ -1,0 +1,35 @@
+main {
+    display: grid;
+    grid-template-areas: "box1" "box2" "box3" "box4";
+    grid-template-columns: auto;
+    padding-bottom: 2em;
+}
+
+figure,
+.form figure {
+    width: 90%;
+    margin: auto;
+}
+
+.form main {
+    grid-template-columns: auto;
+}
+
+.form main h1:first-child {
+    grid-column: 1;
+}
+
+.form main section:nth-child(2) {
+    grid-column:1;
+    grid-row:2;
+}
+
+.form main section:nth-child(3) {
+    grid-column:1;
+    grid-row:4;
+}
+
+.form main section:nth-child(4) {
+    grid-column:1;
+    grid-row:3;
+}
