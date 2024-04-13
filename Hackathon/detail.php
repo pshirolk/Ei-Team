@@ -5,6 +5,16 @@ include 'top.php';
     <h2>Catamount Skiing Forum</h2>
 
     <section>
+        <h3>Most SCenic Skiing!</h3>
+    
+    <section>
+        <h3>Links</h3>
+        <p>
+            <a href="//www.sugarbush.com/">Sugarbush</a>
+        </p>
+    </section>
+    
+    <section>
         <h2>Active Threads</h2>
         <p>
             Shown below are the active threads.  Feel free to jump in to any discussion or create a new thread in the New Thread page.  Just remember to be polite, kind, and helpful.  NEVER give out your personal information on this forum.  If you would like to contact someone on this forum please take your communications away from the website as soon as you have established a line of private communication.  
