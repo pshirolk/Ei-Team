@@ -79,7 +79,6 @@ main,
 article,
 section,
 aside,
-h1,
 h2,
 h3,
 h4,
@@ -166,7 +165,7 @@ input {
 h1 {
     font-family: Georgia;
     font-style: bold;
-    font-size: 50px;
+    font-size: 70px;
     color: rgb(170, 94, 57);
     align-content: center;
     text-shadow:
