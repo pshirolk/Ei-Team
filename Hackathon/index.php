@@ -6,7 +6,7 @@ include 'top.php';
     <h5>Embark on Your Next Adventure...</h5>
 
 <section class = "small-images">
-        <div>
+
             <p> Welcome to our gateway to thrilling outdoor escapades!
             Here, you'll discover a treasure trove of upcoming trips tailored for outdoor enthusiasts like you.
             Whether you're drawn to the serene trails of a forest hike, the adrenaline rush of skiing down powdery slopes,
@@ -18,37 +18,16 @@ include 'top.php';
             State wide 25% of lifts are open. 30% of trails in Vermont are open. Killington has 79% of trails open, 
             Stratton has 24% open, and Bolton Valley has 35% open.
             </p>
-        </div>
-
-        <div>
-            <figure>
-                    <img alt = "(Image is currently unavailable) Trees!" 
-                        src = "images/trees.jpg">
-            </figure>
-    
-            
-            <figure>
-                    <img alt = "(Image is currently unavailable) Come ski with us!" 
-                        src = "images/skiing.jpg">
-            </figure>
-        </div>
+        
     </section>
 
 <section class = "small-images">
-        <div>
             <h2>How to Sign Up</h2>
-            <figure>
-                    <img alt = "(Image is currently unavailable) Mountains!" 
-                        src = "images/mountains.jpg">
-            </figure>
-        </div>
-        <div>
         <p> Ready to embark on your next outdoor adventure? Joining our trips is easy!
             Simply fill out the sign up form and you will receive a confirmation via email.
             Don't miss out on the opportunity to create unforgettable memories and connect with new people.
             Sign up NOW!! Do it! Do it right now! We know you want to!
             </p>
-        </div>
     </section>
 
         <section class = "weather">

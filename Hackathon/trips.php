@@ -54,7 +54,7 @@ if($terms == 0) {
     $dataIsGood = false;
 }
 
-if($trip != "Definitely Trip" AND $trip != "Trip" AND $trip != "Unsure" AND $trip != "Not Trip" AND $trip != "Definitely Not Trip") {
+if($trip != "Mt.Mansfiled Trip" AND $trip != "Sugarbush Trip" AND $trip != "Bolton Valley Trip") {
     $errorMessage .= '<p class="mistake">Please tell us what you think of our website.</p>';
     $dataIsGood = false;
 }
@@ -101,7 +101,7 @@ if($dataIsGood) {
 }
 ?>
 <main>
-    
+    <section>
 <?php
 print '<p>Post Array:</p><pre>';
 print_r($_POST);
@@ -152,7 +152,7 @@ print '</pre>';
                 <p>
                     <input type="radio" id="radMtMasfieldTrip" name="radTrip" 
                     value="Mt.Mansfiled Trip" tabIndex="430" 
-                    <?php if($trip == "Trip") print 'checked'; ?> 
+                    <?php if($trip == "Mt.Mansfiled Trip") print 'checked'; ?> 
                     required>
                     <label class="radio-field" for="radMtMasfieldTrip">Mt. Mansfield Day Hike</label>
                 </p>
