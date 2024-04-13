@@ -76,7 +76,7 @@ if($dataIsGood) {
             $subject = 'New Thread';
 
             $mailMessage = '<p style="font: 14pt serif;">Thank you for ';
-            $mailMessage .= 'contributing to our thread.</p><p> Have a wonderful day<br>';
+            $mailMessage .= 'signing up for a trip with Who Let The Cats Out!.</p><p> Have a wonderful day<br>';
             $mailMessage .= '<span style="color: black; padding-left: 3em;">';
             $mailMessage .= 'Recreational Forum</span></p>';
 
