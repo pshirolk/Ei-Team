@@ -2,12 +2,11 @@
 include 'top.php';
 ?>
 <main>
-    <h2>Rock Climbing Forum</h2>
-
     <section>
+    <h2>Rock Climbing Forum</h2>
+    
         <h3>Rock Climbing in the Area </h3>
     
-    <section>
         <h3>Links</h3>
         <p>
             <a href="//vt.metrorock.com/">MetroRock Vermont</a>
