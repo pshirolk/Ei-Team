@@ -7,7 +7,7 @@ include 'top.php';
 
     <section>
         <h2>ACTIVE GROUPS</h2>
-        <p>Below is a list of active groups you can join.</p>
+        <p>Come join a group activity! Below is a list of upcoming event groups you can join, feel free to look around and find any events that suit you. If you are interested in an event, go ahead and sign up!</p>
         /* list of groups here as different boxes */
         <figure>
             <img alt = "" 
