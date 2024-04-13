@@ -11,7 +11,7 @@ include 'top.php';
         fldEmail VARCHAR(50),
     	fldTitle VARCHAR(50),
     	fldBody VARCHAR(200),
-        fldTopic VARCHAR(20),
+        fldTopic VARCHAR(1),
         fldRating VARCHAR(1)
     );
     </pre>
