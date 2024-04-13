@@ -105,7 +105,6 @@ nav a:hover {
 
 nav a {
     display: inline-block;
-    text-align: justify-all;
     width: 20%;
 }
 
@@ -117,7 +116,7 @@ nav {
     border-top: thick solid rgb(0, 100, 80);
     display: flex;
     background-color: var(--main-bg-color);
-    text-align: center;
+    text-align: justify(center);
     grid-template-columns: 100%;
 }
 
