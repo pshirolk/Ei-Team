@@ -12,12 +12,6 @@
     ?>" href="detail.php">Skiing Forum</a>
 
     <a class="<?php
-    if ($pathParts['filename'] == 'form') {
-        print 'activePage';
-    }
-    ?>" href="form.php">New Thread</a>
-
-    <a class="<?php
     if ($pathParts['filename'] == 'biking') {
         print 'activePage';
     }
@@ -34,4 +28,11 @@
         print 'activePage';
     }
     ?>" href="hiking.php">Hiking Forum</a>
+
+    <a class="<?php
+    if ($pathParts['filename'] == 'form') {
+        print 'activePage';
+    }
+    ?>" href="form.php">New Thread</a>
+    
 </nav>
