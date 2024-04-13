@@ -10,7 +10,7 @@ include 'top.php';
             Shown below are the active threads.  Feel free to jump in to any discussion or create a new thread in the New Thread page.  Just remember to be polite, kind, and helpful.  NEVER give out your personal information on this forum.  If you would like to contact someone on this forum please take your communications away from the website as soon as you have established a line of private communication.  
         </p>
         <p>
-            Extreme sports skiing, biking, and rock climbing involve inherent risks, including but not limited to injury or death. Anyone engaging in these activities assumes those risks and is responsible for their own safety. It is important to obtain proper training, use appropriate safety gear, and exercise caution at all times. This information is not intended to be a substitute for professional advice or guidance, and any decisions made based on this information are the sole responsibility of the reader.
+            Extreme sports involve inherent risks, including but not limited to injury or death. Anyone engaging in these activities assumes those risks and is responsible for their own safety. It is important to obtain proper training, use appropriate safety gear, and exercise caution at all times. This information is not intended to be a substitute for professional advice or guidance, and any decisions made based on this information are the sole responsibility of the reader.
         </p>
 
     </section>
