@@ -3,7 +3,7 @@ include 'top.php';
 ?>
 <main>
     
-    <h1>Embark on Your Next Adventure</h1>
+    <h2>Embark on Your Next Adventure</h2>
 
 <section class = "small-images">
         <h2>Embark on Your Next Adventure</h2>
