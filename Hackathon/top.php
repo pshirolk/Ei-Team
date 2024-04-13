@@ -7,6 +7,8 @@ $pathParts = pathinfo($phpSelf);
     <head>
         <meta charset="utf-8">
         <title>Recreational Forum of Vermont</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> <!-- JS needed for maps widget -->
+        <script type="module" src="./index.js"></script> <!-- more JS -->
         <meta name="author" content="Michael Hayes">
         <meta name="description" content="This is a forum for people who love skiing and biking in Vermont.  We encourage users to post about their recent outdoor adventures in the Green Mountain State.">
 
