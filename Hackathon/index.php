@@ -67,7 +67,7 @@ include 'top.php';
 
     <section>
         <h2>Stay Connected</h2>
-        <p>Don't miss out on future adventures! Sign up for our newsletter to receive the latest updates on upcoming trips and events.
+        <p>Don't miss out on future adventures!
         For updates, follow us on Instagram <a href="https://www.instagram.com/catsoutuvm/"><?php echo "@catsoutuvm"; ?></a> and connect with fellow
         outdoor enthusiasts. Don't forget to tag us in your posts!
         <p>
