@@ -90,7 +90,7 @@ nav nav a:link {
     text-decoration: none;
 }
 
-nav a:link {
+nav a:link, .yellow {
     color: rgb(220, 170, 15);
     text-decoration: none;
 }
