@@ -30,6 +30,7 @@ include 'top.php';
     </section>
 
     <section class = "Forecast For The Week">
+        <h2>Forecast For The Week</h2>
         <a class="weatherwidget-io" href="https://forecast7.com/en/44d53n72d95/underhill/?unit=us" data-label_1="MOUNT MANSFIELD" data-label_2="50 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#0f4416" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >MOUNT MANSFIELD 50 min from you</a>
         <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
