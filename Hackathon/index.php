@@ -33,7 +33,7 @@ include 'top.php';
         <section class = "weather">
         <section>
         <h2>MOUNT MANSFIELD</h2>
-            <a class="weatherwidget-io" href="https://forecast7.com/en/44d53n72d95/underhill/?unit=us" data-label_1="MOUNT MANSFIELD" data-label_2="50 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#0f4416" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >MOUNT MANSFIELD 50 min from you</a>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/44d53n72d95/underhill/?unit=us" data-label_1="MOUNT MANSFIELD" data-label_2="50 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#rgba(255, 255, 255, 0.2)" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >MOUNT MANSFIELD 50 min from you</a>
             <script>
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
             </script>
@@ -61,7 +61,7 @@ include 'top.php';
     <section class = "weather">
         <section>
             <h2>STOWE</h2>
-            <a class="weatherwidget-io" href="https://forecast7.com/en/44d47n72d69/stowe/?unit=us" data-label_1="STOWE" data-label_2="41 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#0f4416" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >STOWE 41 min from you</a>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/44d47n72d69/stowe/?unit=us" data-label_1="STOWE" data-label_2="41 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#rgba(255, 255, 255, 0.2)" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >STOWE 41 min from you</a>
             <script>
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
             </script>
@@ -75,7 +75,7 @@ include 'top.php';
      <section class = "weather">
          <section>
             <h2>BOLTON</h2>
-            <a class="weatherwidget-io" href="https://forecast7.com/en/44d37n72d88/bolton/?unit=us" data-label_1="BOLTON" data-label_2="24 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#0f4416" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >BOLTON 24 min from you</a>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/44d37n72d88/bolton/?unit=us" data-label_1="BOLTON" data-label_2="24 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#rgba(255, 255, 255, 0.2)" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >BOLTON 24 min from you</a>
             <script>
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
             </script>
@@ -89,7 +89,7 @@ include 'top.php';
     <section class = "weather">
         <section>
             <h2>JAY PEAK</h2>
-            <a class="weatherwidget-io" href="https://forecast7.com/en/44d96n72d46/jay/?unit=us" data-label_1="JAY PEAK" data-label_2="1 hr 21 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#0f4416" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >JAY PEAK 1 hr 21 min from you</a>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/44d96n72d46/jay/?unit=us" data-label_1="JAY PEAK" data-label_2="1 hr 21 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#rgba(255, 255, 255, 0.2)" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >JAY PEAK 1 hr 21 min from you</a>
             <script>
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
             </script>
