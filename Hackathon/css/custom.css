@@ -190,9 +190,9 @@ header {
 }
 
 figure {
-    float: right;
-    text-align: center;
-    width: 20em;
+    /*float: right;*/
+    /*text-align: center;*/
+    width: 50em;
 }
 
 img {
