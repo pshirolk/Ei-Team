@@ -12,7 +12,7 @@ include 'top.php';
 
         <p>
             
-            Extreme sports skiing and biking involve inherent risks, including but not limited to injury or death. Anyone engaging in these activities assumes those risks and is responsible for their own safety. It is important to obtain proper training, use appropriate safety gear, and exercise caution at all times. This information is not intended to be a substitute for professional advice or guidance, and any decisions made based on this information are the sole responsibility of the reader.
+            Extreme sports involve inherent risks, including but not limited to injury or death. Anyone engaging in these activities assumes those risks and is responsible for their own safety. It is important to obtain proper training, use appropriate safety gear, and exercise caution at all times. This information is not intended to be a substitute for professional advice or guidance, and any decisions made based on this information are the sole responsibility of the reader.
 
         </p>
 
