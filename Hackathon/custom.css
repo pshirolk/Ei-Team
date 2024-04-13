@@ -74,13 +74,13 @@ nav
 
 nav a:link {
     background-color: #fff;
-    color: #009;
+    color: rgb(255, 212, 22);
     text-decoration: none;
 }
 
 nav a:visited {
     text-decoration: none;
-    color: #003;
+    color: rgb(245, 200, 12);
 }
 
 nav a:hover {
@@ -94,9 +94,12 @@ nav a {
 
 nav {
     padding: 3%;
-    border-bottom: thick solid yellow;
+    border-bottom: thick solid rgb(0, 100, 80);
+    border-left: thick solid rgb(0, 100, 80);
+    border-right: thick solid rgb(0, 100, 80);
+    border-top: thick solid rgb(0, 100, 80);
     display: flex;
-    background-color: white;
+    background-color: var(--main-bg-color);
     text-align: center;
     grid-template-columns: 100%;
 }
