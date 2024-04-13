@@ -1,0 +1,13 @@
+nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: thin solid rgb(237, 230, 230);
+    margin: auto;
+}
+
+nav {
+    grid-template-columns: 100%;
+    padding: 2%;
+}
+
