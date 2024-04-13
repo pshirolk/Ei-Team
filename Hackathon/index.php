@@ -13,10 +13,12 @@ include 'top.php';
         or the invigorating challenge of biking through rugged terrain, we have something for everyone.
         Scroll down to explore our upcoming adventures for the month and embark on unforgettable journeys into nature's embrace.
         </p>
+
         <figure>
                 <img alt = "(Image is currently unavailable) Trees!" 
                     src = "images/trees.jpg">
         </figure>
+
         <p>
         Currently 9 ski areas (53%) out of 17 ski resorts reporting are open for skiing and snowboarding. 
         State wide 25% of lifts are open. 30% of trails in Vermont are open. Killington has 79% of trails open, 
