@@ -19,7 +19,7 @@ include 'top.php';
         <h3>Posted Threads</h3>
 
 <?php
-$sql = 'SELECT fldTitle, fldBody, fldTopic FROM tblForumPost WHERE fldTopic = 4';
+$sql = 'SELECT fldTitle, fldBody, fldTopic FROM tblForumPost WHERE fldTopic = "Rock Climbing"';
 $statement = $pdo->prepare($sql);
 $statement->execute();
 
