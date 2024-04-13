@@ -1,3 +1,16 @@
+/*uploading fonts*/
+
+/*sodo-sans, for paragraphs*/ @font-face{
+    font-family: "sodo-sans";
+    src: url("../fonts/sodo-sans.ttf");
+}
+
+*{
+    font-family: "sodo-sans", Helvetica, sans-serif;
+    
+}
+
+
 main {
     background-color: rgba(203, 201, 201, 0.591);
     display: block;

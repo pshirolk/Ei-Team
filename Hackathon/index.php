@@ -34,6 +34,16 @@ include 'top.php';
         <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
         </script>
+
+        <a class="weatherwidget-io" href="https://forecast7.com/en/44d47n72d69/stowe/?unit=us" data-label_1="STOWE" data-label_2="41 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#0f4416" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >STOWE 41 min from you</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+
+        <a class="weatherwidget-io" href="https://forecast7.com/en/44d37n72d88/bolton/?unit=us" data-label_1="BOLTON" data-label_2="24 min from you" data-font="Verdana" data-icons="Climacons Animated" data-theme="original" data-basecolor="#0f4416" data-highcolor="#ffbc35" data-cloudfill="rgba(255, 255, 255, 0.01)" >BOLTON 24 min from you</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
     </section>
 
     <section>
