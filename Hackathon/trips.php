@@ -101,7 +101,7 @@ if($dataIsGood) {
 }
 ?>
 <main>
-    <h1>Add to a thread.</h1>
+    <h2>Add to a thread.</h2>
 
     
 
