@@ -2,7 +2,7 @@
 include 'top.php';
 ?>
 <main>
-    <h1>Biking Forum</h1>
+    <h1>Catamount Biking Forum</h1>
 
     <section>
         <h2>Active Threads</h2>
