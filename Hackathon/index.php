@@ -19,7 +19,7 @@ include 'top.php';
         <h2>How to Sign Up</h2>
         <p> Ready to embark on your next outdoor adventure? Joining our trips is easy!
         Simply fill out the sign up form and you will receive a confirmation via email.
-        Don't miss out on the opportunity to create unforgettable memories and connect with fellow outdoor enthusiasts.
+        Don't miss out on the opportunity to create unforgettable memories and connect with new people.
         Sign up NOW!! Do it! Do it right now! We know you want to!
         </p>
     </section>
@@ -39,14 +39,15 @@ include 'top.php';
     <section>
         <h2>Featured Trips</h2>
         <p>
+
         </p>
     </section>
 
     <section>
         <h2>Stay connected</h2>
         <p>Don't miss out on future adventures! Sign up for our newsletter to receive the latest updates on upcoming trips and events.
-        Follow us on Instagram <a href="https://www.instagram.com/catsoutuvm/"><?php echo "@catsoutuvm"; ?></a> to connect with fellow
-        outdoor enthusiasts and tag us in your posts!
+        For updates, follow us on Instagram <a href="https://www.instagram.com/catsoutuvm/"><?php echo "@catsoutuvm"; ?></a> and connect with fellow
+        outdoor enthusiasts. Don't forget to tag us in your posts!
         <p>
         <table>
             <caption></caption>
