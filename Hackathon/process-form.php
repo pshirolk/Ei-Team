@@ -9,6 +9,10 @@ $MountainBiking = filter_input(INPUT_POST, "chkMountainBiking", FILTER_VALIDATE_
 
 $Skiing =filter_input(INPUT_POST, "chkSkiing", FILTER_VALIDATE_BOOL);
 
+$Hiking =filter_input(INPUT_POST, "chkHiking", FILTER_VALIDATE_BOOL);
+
+$RockClimbing =filter_input(INPUT_POST, "chkRockClimbing", FILTER_VALIDATE_BOOL);
+
 $Satisfied = $_POST["radSatisfied"];
 
 $databasename = 'MHAYES17_labs';
