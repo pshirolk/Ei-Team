@@ -101,12 +101,7 @@ if($dataIsGood) {
 }
 ?>
 <main>
-    <h2>Add to a thread !</h2>
-
     
-
-    <section>
-        <h2>Have anything to add?</h2>
 <?php
 print '<p>Post Array:</p><pre>';
 print_r($_POST);
