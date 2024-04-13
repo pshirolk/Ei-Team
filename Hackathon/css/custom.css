@@ -115,9 +115,8 @@ nav {
     border-left: thick solid rgb(0, 100, 80);
     border-right: thick solid rgb(0, 100, 80);
     border-top: thick solid rgb(0, 100, 80);
-    border-radius: 8px;
     background-color: var(--main-bg-color);
-    text-align: center;;
+    text-align: justify(center);;
     grid-template-columns: 100%;
 }
 
