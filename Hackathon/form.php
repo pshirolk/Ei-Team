@@ -11,6 +11,7 @@ $satisfied = 0;
 $mountainBiking = 0;
 $skiing = 0;
 $rockClimbing = 0;
+$hiking = 0;
 
 function verifyAlphaNum($testString) {
     // Check for letters, numbers and dash, period, space and single quote only.
@@ -78,6 +79,10 @@ else{
 if ($rockClimbing != 1) { $rockClimbing = 0;}
 else{
     $totalChecked += $rockClimbing + 1;
+}
+if ($hiking != 1) { $hiking = 0;}
+else{
+    $totalChecked += $hiking + 1;
 }
 
 if($totalChecked == 0) {
@@ -190,7 +195,13 @@ print '</pre>';
                     <input id="chkrockClimbing" name="chkrockClimbing" 
                     <?php if($rockClimbing) print 'checked'; ?>
                     type="checkbox" value="1">
-                    <label for="chkrockClimbing">Live Music</label>
+                    <label for="chkrockClimbing">Rock Climbing</label>
+                </p>
+                <p>
+                    <input id="chkHiking" name="chkHiking" 
+                    <?php if($hiking) print 'checked'; ?>
+                    type="checkbox" value="1">
+                    <label for="chkHiking">Hiking</label>
                 </p>
             </fieldset>
 
