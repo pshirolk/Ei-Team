@@ -10,3 +10,11 @@
 .weather a{
     flex: 0 1 20%;
 }
+.small-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.small-classes figure{
+    width: 20em,
+}
