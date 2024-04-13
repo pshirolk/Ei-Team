@@ -7,7 +7,7 @@ include 'top.php';
 
     <section>
         <h2>ACTIVE GROUPS</h2>
-        <p>Come join a group activity! Below is a list of upcoming event groups you can join, feel free to look around and find any events that suit you. If you are interested in an event, go ahead and sign up!</p>
+        <p>Below is a list of active groups you can join.</p>
         /* list of groups here as different boxes */
         <figure>
             <img alt = "" 
@@ -17,13 +17,11 @@ include 'top.php';
     </section>
 
     <section>
-        <h2>HOTSPOTS</h2>
-        <!--The div element for the map -->
-        <div id="map"></div>
-
-    <!-- prettier-ignore -->
-    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-        ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
+        <h2>WEATHER</h2>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/44d48n73d21/burlington/" data-label_1="BURLINGTON, VT" data-label_2="WEATHER" data-theme="original" data-basecolor="#0f4416" data-cloudfill="#0f4416" >BURLINGTON, VT WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
         <table>
             <caption></caption>
 
