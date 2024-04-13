@@ -101,9 +101,7 @@ if($dataIsGood) {
 }
 ?>
 <main>
-    <h1>Add to a thread.</h1>
-
-    
+    <h2>Add to a thread.</h2>
 
     <section>
         <h2>Have anything to add?</h2>
@@ -118,7 +116,6 @@ print '</pre>';
                 <legend>Please enter your email</legend>
                 <p>
                     <label class="required" for="txtEmail">Email</label>
-                    <label for="txtEmail">Email here</label>
                     <input id="txtEmail" maxlength="30" name="txtEmail"
                     onfocus="this.select()" tabindex="305" type="text" value="<?php print $email; ?>" 
                     required>
@@ -129,7 +126,6 @@ print '</pre>';
                 <legend>Please enter your title</legend>
                 <p>
                     <label class="required" for="txtEmail">Title</label>
-                    <label for="txtTitle">Title here</label>
                     <input id="txtTitle" maxlength="30" name="txtTitle"
                     onfocus="this.select()" tabindex="305" type="text" value="<?php print $title; ?>" 
                     required>
@@ -140,7 +136,6 @@ print '</pre>';
                 <legend>Please enter your body</legend>
                 <p>
                     <label class="required" for="txtBody">Body</label>
-                    <label for="txtBody">Body here</label>
                     <input id="txtBody" maxlength="200" name="txtBody"
                     onfocus="this.select()" tabindex="305" type="text" value="<?php print $body; ?>" 
                     required>
@@ -149,7 +144,7 @@ print '</pre>';
 
             
             <fieldset class="radio">
-                <legend>Please choose a Topic</legend>
+                <legend>Please select a Topic</legend>
                 <p>
                     <input type="radio" id="radMountainBiking" name="radTopic" 
                     value="Mountain Biking" tabIndex="430" 
