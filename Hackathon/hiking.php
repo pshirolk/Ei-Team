@@ -7,7 +7,6 @@ include 'top.php';
     <section>
         <h3>Upcoming Events</h3>
     
-    <section>
         <h3>Links</h3>
         <p>
             <a href="//vtstateparks.com/hiking.html">Vermont State Parks - Hiking</a>
