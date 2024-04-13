@@ -6,7 +6,6 @@ include 'top.php';
 
     <section>
         <h3>Upcoming Events</h3>
-    </section>
     
     <section>
         <h3>Links</h3>
