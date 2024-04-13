@@ -56,10 +56,6 @@ if($body == '') {
     $dataIsGood = false;
 }
 
-if($satisfied != "Definitely Satisfied" AND $satisfied != "Satisfied" AND $satisfied != "Unsure" AND $satisfied != "Not Satisfied" AND $satisfied != "Definitely Not Satisfied") {
-    $errorMessage .= '<p class="mistake">Please tell us what you think of our website.</p>';
-    $dataIsGood = false;
-}
 if($topic != "Skiing" AND $topic != "Mountain Biking" AND $topic != "Hiking" AND $topic != "Rock Climbing") {
     $errorMessage .= '<p class="mistake">Please select a topic.</p>';
     $dataIsGood = false;
@@ -182,45 +178,6 @@ print '</pre>';
                     <?php if($topic == "Rock Climbing") print 'checked'; ?> 
                     required>
                     <label class="radio-field" for="radRockClimbing">Rock Climbing</label>
-                </p>
-            </fieldset>
-            
-            <fieldset class="radio">
-                <legend>Did you enjoy our website?</legend>
-                <p>
-                    <input type="radio" id="radDefinitelySatisfied" name="radSatisfied" 
-                    value="Definitely Satisfied" tabIndex="430" 
-                    <?php if($satisfied == "Definitely Satisfied") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radDefinitelySatisfied">Definitely Satisfied</label>
-                </p>
-                <p>
-                    <input type="radio" id="radSatisfied" name="radSatisfied" 
-                    value="Satisfied" tabIndex="430" 
-                    <?php if($satisfied == "Satisfied") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radSatisfied">Satisfied</label>
-                </p>
-                <p>
-                    <input type="radio" id="radUnsure" name="radSatisfied" 
-                    value="Unsure" tabIndex="430" 
-                    <?php if($satisfied == "Unsure") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radUnsure">Unsure</label>
-                </p>
-                <p>
-                    <input type="radio" id="radNotSatisfied" name="radSatisfied" 
-                    value="Not Satisfied" tabIndex="430" 
-                    <?php if($satisfied == "Not Satisfied") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radNotSatisfied">Not Satisfied</label>
-                </p>
-                <p>
-                    <input type="radio" id="radDefinitelyNotSatisfied" name="radSatisfied" 
-                    value="Definitely Not Satisfied" tabIndex="430" 
-                    <?php if($satisfied == "Definitely Not Satisfied") print 'checked'; ?> 
-                    required>
-                    <label class="radio-field" for="radDefinitelyNotSatisfied">Definitely Not Satisfied</label>
                 </p>
             </fieldset>
 
