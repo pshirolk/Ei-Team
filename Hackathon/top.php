@@ -6,9 +6,9 @@ $pathParts = pathinfo($phpSelf);
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Recreational Forum of Vermont</title>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> <!-- JS needed for maps widget -->
-        <script type="module" src="./index.js"></script> <!-- more JS -->
+        <title>UVM Cats Out</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script type="module" src="./index.js"></script>
         <meta name="author" content="Michael Hayes">
         <meta name="description" content="This is a forum for people who love skiing and biking in Vermont.  We encourage users to post about their recent outdoor adventures in the Green Mountain State.">
 
@@ -19,8 +19,6 @@ $pathParts = pathinfo($phpSelf);
         <link rel="stylesheet" media="(max-width: 800px)" href="css/custom-tablet.css?version=<?php print time(); ?>" type="text/css">
 
         <link rel="stylesheet" media="(max-width: 600px)" href="css/custom-phone.css?version=<?php print time(); ?>" type="text/css">
-
-<!-- Websites rock! Very Exciting. -->
 
     </head>
 <?php
