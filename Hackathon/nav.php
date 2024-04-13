@@ -12,7 +12,7 @@
     ?>" href="detail.php">Skiing Forum</a>
 
     <a class="<?php
-    if ($pathParts['filename'] == 'biking') {
+    if ($pathParts['filename'] == 'detail2') {
         print 'activePage';
     }
     ?>" href="detail2.php">Biking Forum</a>
