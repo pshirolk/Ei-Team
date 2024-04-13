@@ -5,10 +5,10 @@
     justify-content: center;
 }
 .weather figure{
-    flex: 1 0 10%;
+    flex: 0 1 30%;
 }
-.weather a{
-    flex: 0 1 20%;
+.weather section{
+    flex: 1 0 20%;
 }
 .small-images{
     display: flex;
