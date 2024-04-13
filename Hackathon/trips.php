@@ -64,7 +64,7 @@ if($trip != "Definitely Trip" AND $trip != "Trip" AND $trip != "Unsure" AND $tri
 print PHP_EOL . '<!--Starting Saving -->' . PHP_EOL;
 if($dataIsGood) {
     $sql = 'INSERT INTO tblTripSignup(fldEmail, fldName, fldTerms, fldTrip) VALUES (?, ?, ?, ?, ?)';
-    $data = array($email, $name, $terms, $topic, $trip);
+    $data = array($email, $name, $terms, $trip);
 
     try{
         $statement = $pdo->prepare($sql);
