@@ -8,5 +8,5 @@ This is a collaboration with UVM MOVE.
   schedule for stops closest to where the tv is located (i.e. Davis Center). This should
   work on a 1920x1080 display
 - Shows when the next Green Mountain Transit bus is coming
-- Bonus to add support for the UVM CatBus
-- Bonus to add support for multiple locations like Innovation or L/L
+  - Bonus to add support for the UVM CatBus
+  - Bonus to add support for multiple locations like Innovation or L/L
