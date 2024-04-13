@@ -39,7 +39,19 @@ include 'top.php';
     <section>
         <h2>Featured Trips</h2>
         <p>
+        <p>Hurry up! Spots are filling out fast!</p>
+        $trips = array(
+            "Sugar Bush Ski Trip, April 14",
+            "Mt. Mansfield Day Hike, April 27",
+            "Bolton Valley Bike Park, May 12"
+        );
 
+        echo "<ul>";
+        foreach ($trips as $trip) {
+            echo "<li>$trip</li>";
+        }
+        echo "</ul>";
+        ?>
         </p>
     </section>
 
@@ -49,15 +61,7 @@ include 'top.php';
         For updates, follow us on Instagram <a href="https://www.instagram.com/catsoutuvm/"><?php echo "@catsoutuvm"; ?></a> and connect with fellow
         outdoor enthusiasts. Don't forget to tag us in your posts!
         <p>
-        <table>
-            <caption></caption>
 
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-
-            </tr>
 <?php
 $sql = 'SELECT fldName, fldLocation, fldRating FROM tblFunSpots';
 $statement = $pdo->prepare($sql);
