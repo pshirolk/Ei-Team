@@ -193,6 +193,9 @@ p {
 main,
 footer {
     background-color: var(--main-bg-color);
+    font-family: "Times New Roman";
+    font-size: medium;
+    text-align: center;
 }
 
 figcaption {
