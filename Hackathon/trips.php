@@ -30,7 +30,7 @@ print PHP_EOL . '<!--Starting Sanitization -->' . PHP_EOL;
 $email = getData('txtEmail');
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 $name = getData('txtName');
-$terms = getData('txtTerms');
+$terms = getData('chkTerms');
 $trip = getData('radTrip');
 
 
@@ -63,8 +63,8 @@ if($trip != "Definitely Trip" AND $trip != "Trip" AND $trip != "Unsure" AND $tri
 
 print PHP_EOL . '<!--Starting Saving -->' . PHP_EOL;
 if($dataIsGood) {
-    $sql = 'INSERT INTO tblForumPost(fldEmail, fldName, fldTerms, fldTopic, fldRating) VALUES (?, ?, ?, ?, ?)';
-    $data = array($email, $name, $terms, $topic, $trip);
+    $sql = 'INSERT INTO tblTripSignup(fldEmail, fldName, fldTerms, fldTrip) VALUES (?, ?, ?, ?, ?)';
+    $data = array($email, $name, $terms, $trip);
 
     try{
         $statement = $pdo->prepare($sql);
@@ -136,14 +136,13 @@ print '</pre>';
                 </p>
             </fieldset>
 
-            <fieldset class="contact">
-                <legend>Please verify you accept the terms and conditions of the trip</legend>
+            <fieldset class="checkbox">
+                <legend>Topic</legend>
                 <p>
-                    <label class="required" for="txtTerms">Terms</label>
-                    <label for="txtTerms">Terms here</label>
-                    <input id="txtTerms" maxlength="200" name="txtTerms"
-                    onfocus="this.select()" tabindex="305" type="text" value="<?php print $terms; ?>" 
-                    required>
+                    <input id="chkTerms" name="chkTerms" 
+                    <?php if($terms) print 'checked'; ?>
+                    type="checkbox" value="1">
+                    <label for="chkTerms">I accept the Terms and Conditions</label>
                 </p>
             </fieldset>
 

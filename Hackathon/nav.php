@@ -34,5 +34,12 @@
         print 'activePage';
     }
     ?>" href="form.php">Create New Thread</a>
+
+    
+    <a class="<?php
+    if ($pathParts['filename'] == 'trips') {
+        print 'activePage';
+    }
+    ?>" href="trips.php">Trip Sign-up<a>
     
 </nav>

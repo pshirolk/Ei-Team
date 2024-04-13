@@ -1,0 +1,13 @@
+
+/*weather flex box*/
+.weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.weather figure{
+    flex: 0 1 30%;
+}
+.weather script{
+    flex: 0 1 80%;
+}
