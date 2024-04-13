@@ -33,6 +33,6 @@
     if ($pathParts['filename'] == 'form') {
         print 'activePage';
     }
-    ?>" href="form.php">New Thread</a>
+    ?>" href="form.php">Create New Thread</a>
     
 </nav>
