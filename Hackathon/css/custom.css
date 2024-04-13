@@ -105,6 +105,7 @@ nav a:hover {
 
 nav a {
     display: inline-block;
+    text-align: justify-all;
     width: 20%;
 }
 
