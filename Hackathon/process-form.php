@@ -5,13 +5,7 @@ $Title = $_POST["txtTitle"];
 
 $Body = $_POST["txtBody"];
 
-$MountainBiking = filter_input(INPUT_POST, "chkMountainBiking", FILTER_VALIDATE_BOOL);
-
-$Skiing =filter_input(INPUT_POST, "chkSkiing", FILTER_VALIDATE_BOOL);
-
-$Hiking =filter_input(INPUT_POST, "chkHiking", FILTER_VALIDATE_BOOL);
-
-$RockClimbing =filter_input(INPUT_POST, "chkRockClimbing", FILTER_VALIDATE_BOOL);
+$Topic = $_POST["radTopic"];
 
 $Satisfied = $_POST["radSatisfied"];
 
@@ -28,7 +22,7 @@ if (mysqli_connect_errno()){
 
 
 $sql = "INSERT INTO tblForumPost (fldEmail, fldTitle, fldBody, fldTopic, fldRating)
-VALUES('$Email', '$Title', '$Body', $MountainBiking, $Satisfied)";
+VALUES('$Email', '$Title', '$Body', $Topic, $Satisfied)";
 
 if (mysqli_query($conn, $sql)) {
   echo "New record created successfully";

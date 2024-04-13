@@ -12,7 +12,7 @@
 
 
 main {
-    background-color: rgba(203, 201, 201, 0.591);
+    background-color: rgba(237, 239, 201, 0.591);
     display: block;
     grid-template-areas: "box1 box1" "box2 box 3" "box3 box4";
     grid-template-columns: auto;
