@@ -50,21 +50,9 @@ include 'top.php';
         <h2>Featured Trips</h2>
         <p>Hurry up! Spots are filling up fast!</p>
         <ul>
-            <?php
-            // Example array of trips and dates
-            $trips = array(
-                "Sugar Bush Ski Trip, April 14",
-                "Mt. Mansfield Day Hike, April 27",
-                "Bolton Valley Bike Park, May 12"
-            );
-
-            // Output bullet points using PHP
-            foreach ($trips as $trip) {
-                echo "<li>$trip</li>";
-            }
-            ?>
+            <li>Sugar Bush Ski Trip, April 14</li><li>Mt. Mansfield Day Hike, April 27</li><li>Bolton Valley Bike Park, May 12</li>
         </ul>
-    </section>
+</section>
 
     <section>
         <h2>Stay Connected</h2>
