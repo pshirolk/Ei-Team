@@ -1,10 +1,12 @@
 main {
-    background-color: rgba(0, 105, 80, 0.591);
-    display: flex;
+    background-color: rgba(203, 201, 201, 0.591);
+    display: block;
     grid-template-areas: "box1 box1" "box2 box 3" "box3 box4";
     grid-template-columns: auto;
     grid-gap: 2%;
 }
+
+
 
 main h1:first-child {
     grid-area: box1;
@@ -26,11 +28,11 @@ main section:nth-child(4) {
 
 :root {
 
-    --main-bg-color: #007155;
+    --main-bg-color: #e0e0dd;
     --nav-bg-color-rgba: rgba(253, 191, 97, .8);
-    --main-text-color: #FFD416;
-    --background-even: rgba(0, 120, 100, .8);
-    --background-odd: rgba(0, 100, 80, .8);
+    --main-text-color: #000000;
+    --background-even: rgba(253, 253, 233, .8);
+    --background-odd: rgba(233, 233, 233, 0.591);
 
 }
 
@@ -64,23 +66,22 @@ input[type=submit] {
 main,
 article,
 section,
-aside, h1,
+aside,
+h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-nav
+nav nav a:link {
+    background-color: #eeeee4;
 
-nav a:link {
-    background-color: #fff;
-    color: #009;
     text-decoration: none;
 }
 
 nav a:visited {
     text-decoration: none;
-    color: #003;
+    color: rgb(46, 45, 83);
 }
 
 nav a:hover {
@@ -89,23 +90,27 @@ nav a:hover {
 
 nav a {
     display: inline-block;
-    width: 40%;
+    width: 20%;
 }
 
 nav {
-    padding: 3%;
-    border-bottom: thick solid yellow;
+    padding: 1%;
+    border-bottom: thick solid rgb(0, 0, 0);
+    border-left: thick solid rgb(0, 0, 0);
+    border-right: thick solid rgb(0, 0, 0);
+    border-top: thick solid rgb(0, 0, 0);
     display: flex;
-    background-color: white;
+    background-color: var(--main-bg-color);
     text-align: center;
     grid-template-columns: 100%;
 }
 
 
-body{
+body {
+    background-color: var(--main-bg-color);
     width: 90%;
-    margin: 1;
-    max-width: 150em;
+    margin: 1em;
+    max-width: 200em;
 }
 
 .rounded {
@@ -121,7 +126,7 @@ cite {
     font-size: xx-small;
 }
 
-.radio label, 
+.radio label,
 .textbox label {
     display: inline;
 }
@@ -162,16 +167,16 @@ figcaption {
 }
 
 header {
-    background-image: url(../images/theTram.jfif)
+    background-image: url(../images/headerPic.jpg)
 }
 
-figure{
+figure {
     float: right;
     text-align: center;
     width: 20em;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
@@ -214,12 +219,17 @@ caption {
 }
 
 form {
-    background-color: var(--main-bg-color);
     border: thin solid black;
     clear: both;
     max-width: 200em;
     margin: auto;
     padding: 1%;
+}
+
+.data {
+
+    display: table-row;
+
 }
 
 form p {
@@ -238,7 +248,7 @@ legend {
     margin-top: 1%;
 }
 
-#map {
-    height: 400px; /* The height is 400 pixels */
-    width: 100%; /* The width is the width of the web page */
+.activePage {
+
+    background-color: gray;
 }
