@@ -179,6 +179,7 @@ h1 {
 }
 h5 {
     font-style: bold;
+    font-size: larger;
     color: rgb(255, 255, 225);
     text-decoration: none;
 }
@@ -217,6 +218,7 @@ img {
     max-width: 100%;
 }
 
+/*
 li:nth-child(odd) {
     background-color: var(--background-odd);
 }
@@ -224,6 +226,7 @@ li:nth-child(odd) {
 li:nth-child(even) {
     background-color: var(--background-even);
 }
+ */
 
 table {
     border: medium solid black;
