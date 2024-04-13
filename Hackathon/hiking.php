@@ -2,7 +2,7 @@
 include 'top.php';
 ?>
 <main>
-    <h1>Hiking</h1>
+    <h2>Hiking</h2>
 
     <section>
         <h3>Upcoming Events</h3>

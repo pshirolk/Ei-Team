@@ -2,7 +2,7 @@
 include 'top.php';
 ?>
 <main>
-    <h1>Catamount Skiing Forum</h1>
+    <h2>Catamount Skiing Forum</h2>
 
     <section>
         <h2>Active Threads</h2>
