@@ -5,10 +5,13 @@ include 'top.php';
     <h2>Catamount Skiing Forum</h2>
 
     <section>
-        <h3>Most Scenic Skiing!</h3>
+        <h3>Most Scenic Ski Resorts!</h3>
     
     <section>
         <h3>Links</h3>
+        <p>
+            <a href="//www.stowe.com/">Stowe</a>
+        </p>
         <p>
             <a href="//www.sugarbush.com/">Sugarbush</a>
         </p>
