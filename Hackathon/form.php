@@ -60,29 +60,8 @@ if($satisfied != "Definitely Satisfied" AND $satisfied != "Satisfied" AND $satis
     $errorMessage .= '<p class="mistake">Please tell us what you think of our website.</p>';
     $dataIsGood = false;
 }
-
-$totalChecked = 0;
-
-if ($mountainBiking != 1) {$mountainBiking = 0;}
-else {
-    $totalChecked += $mountainBiking;
-}
-
-if ($skiing != 1) { $skiing = 0;}
-else{
-    $totalChecked += $skiing + 1;
-}
-if ($rockClimbing != 1) { $rockClimbing = 0;}
-else{
-    $totalChecked += $rockClimbing + 1;
-}
-if ($hiking != 1) { $hiking = 0;}
-else{
-    $totalChecked += $hiking + 1;
-}
-
-if($totalChecked == 0) {
-    $errorMessage = '<p class="mistake">Please choose at least one box.</p>';
+if($topic != "Skiing" AND $topic != "Mountain Biking" AND $topic != "Hiking" AND $topic != "Rock Climbing") {
+    $errorMessage .= '<p class="mistake">Please select a topic.</p>';
     $dataIsGood = false;
 }
 
@@ -90,7 +69,7 @@ if($totalChecked == 0) {
 print PHP_EOL . '<!--Starting Saving -->' . PHP_EOL;
 if($dataIsGood) {
     $sql = 'INSERT INTO tblForumPost(fldEmail, fldTitle, fldBody, fldTopic, fldRating) VALUES (?, ?, ?, ?, ?)';
-    $data = array($email, $title, $body, $totalChecked, $satisfied);
+    $data = array($email, $title, $body, $topic, $satisfied);
 
     try{
         $statement = $pdo->prepare($sql);
