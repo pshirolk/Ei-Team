@@ -10,11 +10,10 @@
 .weather section{
     flex: 1 0 20%;
 }
-.small-images{
+/*.small-images{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .small-classes figure{
-    width: 20em,
-}
+    width: 20em,*/
