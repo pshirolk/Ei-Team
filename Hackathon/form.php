@@ -10,6 +10,7 @@ $body = 0;
 $satisfied = 0;
 $mountainBiking = 0;
 $skiing = 0;
+$liveMusic = 0;
 
 function verifyAlphaNum($testString) {
     // Check for letters, numbers and dash, period, space and single quote only.
@@ -36,6 +37,7 @@ $body = getData('txtBody');
 $satisfied = getData('radSatisfied');
 $mountainBiking = (int) getData('chkMountainBiking');
 $skiing = (int) getData('chkSkiing');
+$liveMusic = (int) getData('chkLiveMusic');
 
 print PHP_EOL . '<!--Starting Validation -->' . PHP_EOL;
 
@@ -72,6 +74,10 @@ else {
 if ($skiing != 1) { $skiing = 0;}
 else{
     $totalChecked += $skiing + 1;
+}
+if ($liveMusic != 1) { $liveMusic = 0;}
+else{
+    $totalChecked += $liveMusic + 1;
 }
 
 if($totalChecked == 0) {
@@ -179,6 +185,12 @@ print '</pre>';
                     <?php if($skiing) print 'checked'; ?>
                     type="checkbox" value="1">
                     <label for="chkSkiing">Skiing</label>
+                </p>
+                <p>
+                    <input id="chkLiveMusic" name="chkLiveMusic" 
+                    <?php if($liveMusic) print 'checked'; ?>
+                    type="checkbox" value="1">
+                    <label for="chkLiveMusic">Live Music</label>
                 </p>
             </fieldset>
 
