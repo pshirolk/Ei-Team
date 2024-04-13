@@ -5,7 +5,7 @@ include 'top.php';
     
     <h1>Embark on Your Next Adventure</h1>
 
-<section>
+<section class = "small-images">
         <h2>Embark on Your Next Adventure</h2>
         <p> Welcome to our gateway to thrilling outdoor escapades!
         Here, you'll discover a treasure trove of upcoming trips tailored for outdoor enthusiasts like you.
@@ -30,7 +30,7 @@ include 'top.php';
         </figure>
     </section>
 
-    <section>
+<section class = "small-images">
         <h2>How to Sign Up</h2>
         <figure>
                 <img alt = "(Image is currently unavailable) Mountains!" 
