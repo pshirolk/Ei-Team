@@ -189,19 +189,19 @@ print '</pre>';
                 <p>
                     <input id="chkSkiing" name="chkSkiing" 
                     <?php if($skiing) print 'checked'; ?>
-                    type="checkbox" value="1">
+                    type="checkbox" value="2">
                     <label for="chkSkiing">Skiing</label>
                 </p>
                 <p>
                     <input id="chkrockClimbing" name="chkrockClimbing" 
                     <?php if($rockClimbing) print 'checked'; ?>
-                    type="checkbox" value="1">
+                    type="checkbox" value="3">
                     <label for="chkrockClimbing">Rock Climbing</label>
                 </p>
                 <p>
                     <input id="chkHiking" name="chkHiking" 
                     <?php if($hiking) print 'checked'; ?>
-                    type="checkbox" value="1">
+                    type="checkbox" value="4">
                     <label for="chkHiking">Hiking</label>
                 </p>
             </fieldset>
