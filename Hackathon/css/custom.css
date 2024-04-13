@@ -163,7 +163,7 @@ h1 {
 }
 
 p {
-    text-indent: 3em;
+    /*text-indent: 3em;*/
     padding-bottom: 1em;
     text-align: left;
 }
