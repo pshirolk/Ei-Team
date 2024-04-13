@@ -136,14 +136,13 @@ print '</pre>';
                 </p>
             </fieldset>
 
-            <fieldset class="contact">
-                <legend>Please verify you accept the terms and conditions of the trip</legend>
+            <fieldset class="checkbox">
+                <legend>Topic</legend>
                 <p>
-                    <label class="required" for="txtTerms">Terms</label>
-                    <label for="txtTerms">Terms here</label>
-                    <input id="txtTerms" maxlength="200" name="txtTerms"
-                    onfocus="this.select()" tabindex="305" type="text" value="<?php print $terms; ?>" 
-                    required>
+                    <input id="chkTerms" name="chkTerms" 
+                    <?php if($terms) print 'checked'; ?>
+                    type="checkbox" value="1">
+                    <label for="chkTerms">I accept the Terms and Conditions</label>
                 </p>
             </fieldset>
 
