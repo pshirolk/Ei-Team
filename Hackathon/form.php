@@ -57,6 +57,7 @@ if($body == '') {
 
 if($topic != "Skiing" AND $topic != "Mountain Biking" AND $topic != "Hiking" AND $topic != "Rock Climbing") {
     $errorMessage .= '<p class="mistake">Please select a topic.</p>';
+    $dataIsGood = false;
 }
 
 
