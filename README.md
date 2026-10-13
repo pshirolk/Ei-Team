@@ -9,12 +9,12 @@ A web app built in a 7-hour hackathon to help UVM students get outdoors. The pro
 - **Weather forecasts** so students can check conditions before heading out
 - **Event sign-ups** for outdoor activities, with capacity limits
 - **User posts** so students can share plans and find people to join
-<!-- Edit this list so it matches exactly what the app does. -->
+
  
 ## Tech stack
  
 - PHP
-- SQL ([MySQL / SQLite / other — fill in])
+- SQL
 - HTML and CSS
 - Weather API
 
